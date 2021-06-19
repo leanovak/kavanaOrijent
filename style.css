@@ -1,0 +1,623 @@
+@charset "utf-8";
+@import url("webfonts/Trykker_Regular/stylesheet.css");
+
+
+
+/* CSS Document */
+* {
+	box-sizing: border-box;
+	font-family: "Trykker Regular";
+	font-size: 18px;
+}
+.container{
+	width: 100%;
+}
+.content{
+	padding-bottom: 15px;
+}
+	.banner {
+	background-image: url(slike/ban1.jpg);
+	display: -ms-flexbox;
+	-ms-flex-pack: center;
+	-ms-flex-align: center;
+	-moz-align-items: center;
+	-webkit-align-items: center;
+	-ms-align-items: center;
+	align-items: center;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	min-height: 75vh;
+	height: 65vh;
+	position: relative;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	color: #DADADA;
+	padding-top: 8em;
+	padding-right: 0;
+	padding-bottom: 11em;
+	padding-left: 0;
+	}
+	.dobrodosli h2{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 36px;
+	color: #DADADA;
+	}
+	.bannerm{
+	background-image: url(slike/mban.jpg);
+	display: -ms-flexbox;
+	-ms-flex-pack: center;
+	-ms-flex-align: center;
+	-moz-align-items: center;
+	-webkit-align-items: center;
+	-ms-align-items: center;
+	align-items: center;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	min-height: 75vh;
+	height: 65vh;
+	position: relative;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	color: #DADADA;
+	padding-top: 8em;
+	padding-right: 0;
+	padding-bottom: 11em;
+	padding-left: 0;
+	}
+	.bannerr{
+	background-image: url(slike/rezban.jpg);
+	display: -ms-flexbox;
+	-ms-flex-pack: center;
+	-ms-flex-align: center;
+	-moz-align-items: center;
+	-webkit-align-items: center;
+	-ms-align-items: center;
+	align-items: center;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	min-height: 75vh;
+	height: 65vh;
+	position: relative;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	color: #DADADA;
+	padding-top: 10em;
+	padding-right: 8;
+	padding-bottom: 11em;
+	padding-left: 0;
+	}
+	.bannerk{
+	background-image: url(slike/kontban.jpg);
+	display: -ms-flexbox;
+	-ms-flex-pack: center;
+	-ms-flex-align: center;
+	-moz-align-items: center;
+	-webkit-align-items: center;
+	-ms-align-items: center;
+	align-items: center;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	min-height: 75vh;
+	height: 65vh;
+	position: relative;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	color: #DADADA;
+	padding-top: 8em;
+	padding-right: 0;
+	padding-bottom: 11em;
+	padding-left: 0;
+	}
+	.bannerp{
+	background-image: url(slike/pizzaban.jpg);
+	display: -ms-flexbox;
+	-ms-flex-pack: center;
+	-ms-flex-align: center;
+	-moz-align-items: center;
+	-webkit-align-items: center;
+	-ms-align-items: center;
+	align-items: center;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	min-height: 75vh;
+	height: 65vh;
+	position: relative;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	color: #DADADA;
+	padding-top: 8em;
+	padding-right: 0;
+	padding-bottom: 11em;
+	padding-left: 0;
+	}
+	.bannerj{
+	background-image: url(slike/jelaban.jpg);
+	display: -ms-flexbox;
+	-ms-flex-pack: center;
+	-ms-flex-align: center;
+	-moz-align-items: center;
+	-webkit-align-items: center;
+	-ms-align-items: center;
+	align-items: center;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	min-height: 75vh;
+	height: 65vh;
+	position: relative;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	color: #DADADA;
+	padding-top: 8em;
+	padding-right: 0;
+	padding-bottom: 11em;
+	padding-left: 0;
+	}
+	.bannerpri{
+	background-image: url(slike/priban.jpg);
+	display: -ms-flexbox;
+	-ms-flex-pack: center;
+	-ms-flex-align: center;
+	-moz-align-items: center;
+	-webkit-align-items: center;
+	-ms-align-items: center;
+	align-items: center;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	min-height: 75vh;
+	height: 65vh;
+	position: relative;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	color: #DADADA;
+	padding-top: 8em;
+	padding-right: 0;
+	padding-bottom: 11em;
+	padding-left: 0;
+	}
+	.banners{
+	background-image: url(slike/salban.jpg);
+	display: -ms-flexbox;
+	-ms-flex-pack: center;
+	-ms-flex-align: center;
+	-moz-align-items: center;
+	-webkit-align-items: center;
+	-ms-align-items: center;
+	align-items: center;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	min-height: 75vh;
+	height: 65vh;
+	position: relative;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	color: #DADADA;
+	padding-top: 8em;
+	padding-right: 0;
+	padding-bottom: 11em;
+	padding-left: 0;
+	}
+
+		.banner:before {
+     		content: '';
+			display: block;
+			height: 100%;
+			left: 0;
+			opacity: 0.65;
+			position: absolute;
+			top: 0;
+			width: 100%;
+			z-index: 1;
+		}
+
+		.banner .inner {
+	position: relative;
+	opacity: 1;
+	z-index: 3;
+		}
+
+		.banner h2 {
+			font-size: 1.5em;
+			line-height: 1em;
+			margin: 0 0 0.5em 0;
+			padding: 0;
+			color: #FFF;
+		}
+		.bannerm h2 {
+			font-size: 1.5em;
+			line-height: 1em;
+			margin: 0 0 0.5em 0;
+			padding: 0;
+			color: #FFF;
+			
+		}
+		.bannerr h2 {
+			font-size: 1.5em;
+			line-height: 1em;
+			margin: 0 0 0.5em 0;
+			padding: 0;
+			color: #FFF;
+		}
+		.bannerk h2 {
+			font-size: 1.5em;
+			line-height: 1em;
+			margin: 0 0 0.5em 0;
+			padding: 0;
+			color: #FFF;
+		}
+		.bannerp h2 {
+			font-size: 1.5em;
+			line-height: 1em;
+			margin: 0 0 0.5em 0;
+			padding: 0;
+			color: #FFF;
+			margin-bottom: 180px;
+		}
+		.bannerj h2 {
+			font-size: 1.5em;
+			line-height: 1em;
+			margin: 0 0 0.5em 0;
+			padding: 0;
+			color: #FFF;
+			margin-bottom: 180px;
+		}
+		.bannerpri h2 {
+			font-size: 1.5em;
+			line-height: 1em;
+			margin: 0 0 0.5em 0;
+			padding: 0;
+			color: #FFF;
+			margin-bottom: 180px;
+		}
+		.banners h2 {
+			font-size: 1.5em;
+			line-height: 1em;
+			margin: 0 0 0.5em 0;
+			padding: 0;
+			color: #FFF;
+			margin-bottom: 180px;
+		}
+		.banner p {
+	font-size: 1em;
+	margin-bottom: 1.75em;
+	padding: 10px;
+		}
+		.bannerm p {
+	font-size: 1em;
+	margin-bottom: 1.75em;
+	padding: 10px;
+	margin-bottom: 1.75em;
+		}
+		.bannerk p {
+	font-size: 1em;
+	margin-bottom: 1.75em;
+	padding: 10px;
+	margin-bottom: 1.75em;
+		}
+
+		.banner a {
+			color: #FFF;
+			text-decoration: none;
+		}
+.logo{
+	width: 300px;
+	height: 300px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.pizzaban{
+	width: 100%;
+	height: 621px;
+	background-image: url(slike/pizzaban.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;	
+}
+.jelaban{
+	width: 100%;
+	height: 621px;
+	background-image: url(slike/jelaban.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;	
+}
+.priban{
+	width: 100%;
+	height: 621px;
+	background-image: url(slike/priban.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;	
+}
+.salban{
+	width: 100%;
+	height: 621px;
+	background-image: url(slike/salban.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;	
+}
+.menu{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+}
+.menu1{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(slike/ukras.png);
+	margin-top: 20px;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: center top;
+	padding-top: 30px;
+}
+th, td {
+  padding: 15px;
+}
+.tekst{
+	width: 80%;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	box-sizing: border-box;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.tekst h1 a{
+	font-size: 22px;
+}
+.tekst h2{
+	font-size: 22px;
+}
+.tekst p a{
+	color: #590515;
+	text-decoration: underline;
+}
+a:link {
+	color: black;
+	background-color: transparent;
+	text-decoration: blink;
+}
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.footer{
+	width: 100%;
+	color: #DADADA;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #590515;
+	padding: 7px;
+}
+.dolje{
+	width: 80%;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-color: #F30;
+	border-right-color: #F30;
+	border-bottom-color: #F60;
+	border-left-color: #F30;
+	text-align: center;
+}
+hr{
+	width: 50px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
+	text-align: center;
+}
+h1{
+	font-size: 22px;
+}
+.layer {
+  position: fixed;
+  z-index: 100000;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  background-color: rgba(43,51,59,0.80);
+}
+
+.flex {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Dropdown Button */
+.dropbtn {
+	background-color: #FFFFFF;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+	background-color: #FFFFFF;
+}
+.row::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+[class*="col-"] {
+  float: left;
+}
+.aside {
+	font-size: 14px;
+}
+
+/* For desktop: */
+.col-3 {
+	width: 50%;
+	text-align: center;
+	padding-bottom: 49px;
+	padding-top: 30px;
+	padding-right: 5px;
+	padding-left: 5px;
+	background-image: url(slike/ukras.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.col-6 {
+	width: 50%;
+	text-align: center;
+	color: #0F0F0F;
+	border-right-width: thin;
+	border-right-style: solid;
+	border-right-color: #1D1D1E;
+	background-image: url(slike/ukras.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	padding-top: 30px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+    border-right: none;
+  }
+  [class*="col-3"] {
+	  background-image:none;
+	  padding-top: 0px;
+  }
+  .baSlider{
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+  }
+}
+.beer-slider {
+  font-family: Montserrat;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  margin-bottom: 1.5rem;
+}
