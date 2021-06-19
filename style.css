@@ -16,7 +16,7 @@
 	padding-bottom: 15px;
 }
 	.banner {
-	background-image: url(slike/ban1.jpg);
+	background-image: url("slike/ban1.jpg");
 	display: -ms-flexbox;
 	-ms-flex-pack: center;
 	-ms-flex-align: center;
